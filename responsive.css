@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+    .top {
+        padding: 0 12px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .nice-place {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+
+    .about-item >h2 {
+        font-size: 20px;
+    }
+
+    .phan-hoi-item {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 415px) {
+    .top {
+        width: 402px;
+        background-color: var(--main-color);
+        margin-left: 5.5px;
+    }
+
+    .top .menu-bar.active {
+        margin-right: 100px;
+    }
+
+    .big-image .big-image-content h2 {
+        font-size: 30px;
+    }
+
+    .about {
+        padding-bottom: 0px;
+    }
+
+
+    .food-items {
+        width: 100%;
+    }
+
+    .phan-hoi-item {
+        width: 100%;
+    }
+
+    .nice-place-item {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .nice-place-item:last-child {
+        margin-bottom: 25px;
+
+    }
+    
+    .footer h2 {
+        font-size: 15px;
+    }
+    
+    .footer p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-social i {
+        font-size: 13px;
+        
+    }
+
+    .footer-bg span {
+        font-size: 15px;
+    }
+
+    .menu-items.active {
+        transform: translateX(-142px);
+    }
+
+    .tour-content-img {
+        width: 100%;
+    }
+
+    .tour-content-text {
+        width: 100%;
+    }
+
+    .phan-hoi-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .top {
+        width: 355px;
+        margin-left: 9px;
+    }
+
+    .menu-items.active {
+        transform: translateX(-117px);
+    }
+
+    .footer p {
+        margin-bottom: 7px;
+    }
+
+    .tour-content-img {
+        width: 100%;
+    }
+
+    .tour-content-text {
+        width: 100%;
+    }
+
+    .phan-hoi-item {
+        margin-bottom: 20px;
+    }
+}
